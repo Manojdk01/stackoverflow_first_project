@@ -1,0 +1,279 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.747),rgba(0, 0, 0, 0.747)),url(../background.jpg);
+    width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner nav ul
+{
+    list-style: none;
+    display: flex;
+    position: relative;
+    
+}
+
+.logo, nav
+{
+    display: inline-block;
+}
+
+.btn
+{
+    position: absolute;
+    right:80px;
+    top: 40px;
+
+    
+}
+.logo
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.t,.c,.flow
+{
+    color: rgb(226, 214, 43);
+}
+
+nav ul li a
+{
+    font-size: 19px;
+}
+
+nav ul li a::after
+{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    background-color: white;
+    transition: ease-out 0.6s;
+}
+
+nav ul li a:hover::after
+{
+    width: 100%;
+}
+
+nav ul li
+{
+    margin-right: 100px;
+    position: relative;
+}
+
+.banner
+{
+    background-color: brown;
+    padding: 20px 0;
+
+}
+
+.login
+{
+    padding: 8px 12px;
+    background-color: rgb(125, 134, 141);
+    margin-right: 10px;
+}
+
+.signup
+{
+    padding: 8px;
+    background-color: rgb(12, 84, 139);
+    margin-right: 20px;
+}
+
+nav ul li form input[type=search]
+{
+    padding: 10px;
+    border: none;
+    position: relative;
+    top: -6px;
+}
+
+nav ul li form .fa,.fa-search
+{
+    font-size: 31px;
+    
+}
+nav ul li form button
+{
+    border: none;
+    background-color: white;
+    padding: 4px;
+    margin-left: -5px;
+}
+
+.banner-cont
+{
+    text-align: center;
+    margin: 200px 0 0 0;
+}
+
+.banner-cont h1
+{
+    color: rgb(226, 214, 43);
+    margin-bottom: 10px;
+}
+
+.banner-cont p
+{
+    color: rgb(30, 250, 10);
+    margin-bottom: 30px;
+}
+.trial
+{
+    width: 200px;
+    height: 65px;
+    background-color: white;
+    border: 1px solid rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
+    font-size: 19px;
+    font-family: cursive;
+    margin-right: 10px;
+}
+
+.trial:hover
+{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    cursor: pointer;
+}
+
+
+.premuim
+{
+    width: 200px;
+    height: 65px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    box-shadow: inset 0 0 0 0 rgb(255, 153, 0);
+    font-size: 19px;
+    font-family: cursive;
+    overflow: hidden;
+    transition: ease-out 0.6s;
+}
+.premuim:hover
+{
+    box-shadow:inset 300px 0 0 0 rgb(255, 153, 0);
+    cursor: pointer;
+}
+
+.box-cont
+{
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+.cmn-box
+{
+    width: 250px;
+    border: 1px solid rgb(0, 255, 76);
+    display: inline-block;
+    margin-right: 25px;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0 rgb(107, 228, 208);
+    transition: ease-in 0.5s;
+}
+
+.cmn-box:hover
+{
+    box-shadow: inset 250px 0 0 0 rgb(107, 228, 208);
+}
+
+.box-cont h3
+{
+    color: rgb(186, 11, 230);
+    margin-bottom: 10px;
+}
+
+.box-cont p{
+    color: rgb(255, 145, 0);
+    padding: 20px;
+    text-align: justify;
+}
+
+.log-in
+{
+
+    width: 900px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    margin: 50px auto 0 auto;
+}
+
+.log
+{
+    margin: 0 auto 0 auto;
+
+    margin-right: 150px;
+}
+
+.log-in .log-img
+{
+    
+    margin-right: 20px;
+}
+
+.log-img, .log form
+{
+    display: inline-block;
+}
+
+.log form
+{
+    position: absolute;
+    top: 0; 
+    background-color: rgb(58, 77, 94);
+    padding: 0 20px 12px 20px;
+    margin-left: -20px;
+}
+
+.log form h2
+{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.input-tra
+{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.log-btn
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 0 0 0 0 rgb(123, 255, 0);
+    transition: ease-in 0.3s;
+}
+
+.log-btn:hover
+{
+    box-shadow: inset 100px 0 0 0 rgb(123, 255, 0);
+}
+
